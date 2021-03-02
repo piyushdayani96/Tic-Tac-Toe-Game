@@ -98,7 +98,7 @@ class App extends React.Component
     }
   handlePlayerClick=(rowIndex,colIndex)=>{
     // this.gameState[rowIndex][colIndex]=playerTurn;
-    //Make a copy
+    //Make a copy .
     if(this.state.gameStatus==true && this.state.gameState[rowIndex][colIndex]=="" && this.state.drawStatus==false)
     {
     const copiedGameState=[...this.state.gameState];
